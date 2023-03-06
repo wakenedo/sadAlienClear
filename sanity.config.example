@@ -1,0 +1,18 @@
+import { defineConfig } from 'sanity'
+import { deskTool } from 'sanity/desk'
+//import { schemaTypes } from 'studio/schemas'
+
+//schema: {types: schemaTypes,},
+//Add this line below 'plugins' to init your Studio Schemas
+
+export default defineConfig({
+  name: 'sadAlienClear',
+  title: process.env.NEXT_PUBLIC_SANITY_PROJECT_TITLE,
+
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
+
+  plugins: [deskTool()],
+
+
+})
