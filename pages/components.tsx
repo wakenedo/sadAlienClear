@@ -24,6 +24,7 @@ import { DefaultSectionTopics } from 'components/Default/DefaultSectionTopics';
 const Components: NextPage = () => {
   return (
     <>
+      <title>{` Sad Alien Clear | Components  `}</title>
       <DefaultHeadSectionFullWidth />
       <DefaultHeadSection />
       <DefaultSectionTopics />

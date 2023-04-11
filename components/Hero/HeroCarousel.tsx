@@ -4,23 +4,10 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 const slides = [
   {
     id: 1,
-    url: 'https://i.ibb.co/dcg2tkd/space2.jpg',
-    text: 'Ready to Deploy',
-    subText: 'Soluções de sustentabilidade apropriadas para o seu negócio'
+    url: 'https://i.ibb.co/DtKbdGK/Default-space-3-29a13993-3b2e-4754-a9cc-3b2a9590b8e0-1.jpg',
+    text: 'sadAlien Clear',
+    subText: ''
   },
-  {
-    id: 2,
-    url: 'https://i.ibb.co/T0HxqQs/space1.jpg',
-    text: 'Custom Schemas',
-    subText: 'A ferramenta ideal para quem deseja mapear emissões de gases de efeito estufa em pequenas e médias empresas. Conheça.'
-  },
-  {
-    id: 3,
-    url: 'https://i.ibb.co/dcg2tkd/space2.jpg',
-    text: 'Easy to use Components',
-    subText: 'A ferramenta ideal para quem deseja mapear emissões de gases de efeito estufa em pequenas e médias empresas. Conheça.'
-  },
-
 ];
 
 const HeroCarousel = () => {
@@ -40,17 +27,19 @@ const HeroCarousel = () => {
   };
 
   return (
-    <div className='max-w-full lg:h-[960px] w-full m-auto pt-4 pb-8  relative group'>
+    <div className='max-w-full lg:h-[960px] md:h-[930px] h-[550px] w-full m-auto pt-4 pb-8  relative group'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full  bg-center bg-cover duration-500'
       >
         <div>
-          <div className="lg:pt-[24.5rem]">
-            <p id={slides[currentIndex].url} className="text-center uppercase text-5xl text-slate-100 shadow-current font-semibold tracking-tighter"> {slides[currentIndex].text}</p>
-          </div>
-          <div className="lg:pt-[1rem]">
-            <p id={slides[currentIndex].url} className="text-center text text-xl text-slate-100"> {slides[currentIndex].subText}</p>
+          <div className=' bg-black bg-opacity-60 backdrop-blur-lg lg:mx-[40rem] md:mx-[15rem]'>
+            <div className="  py-[1rem]">
+              <p id={slides[currentIndex].url} className="text-center lg:text-5xl md:text-2xl text-base uppercase  text-slate-100 shadow-current font-semibold tracking-tighter"> {slides[currentIndex].text}</p>
+            </div>
+            <div className="lg:pb-[1rem] md:py-[1rem] py-[0.5rem] mx-4 ">
+              <p id={slides[currentIndex].url} className="text-justify lg:text-xs md:text-xs text-xs   text-slate-100"> {slides[currentIndex].subText}</p>
+            </div>
           </div>
         </div>
 
@@ -64,15 +53,6 @@ const HeroCarousel = () => {
           >
 
           </div>
-          {/* Left Arrow */}
-          <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-slate-100 cursor-pointer'>
-            <BsChevronCompactLeft onClick={prevSlide} size={30} />
-          </div>
-          {/* Right Arrow */}
-          <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-slate-100 cursor-pointer'>
-            <BsChevronCompactRight onClick={nextSlide} size={30} />
-          </div>
-
         </div>
       ))}
     </div>

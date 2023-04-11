@@ -1,13 +1,14 @@
 import '../styles/global.css'
 
 import type { NextPage } from "next";
-import FirstSteps from 'components/Setup/FirstSteps';
+import FirstSteps from 'components/FirstSteps';
 
 
 
 const Setup: NextPage = () => {
   return (
     <>
+      <title>{` Sad Alien Clear | Setup  `}</title>
       <FirstSteps />
     </>
   );

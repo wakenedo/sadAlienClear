@@ -4,10 +4,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 
 const navigation = [
-  { id: 1, name: 'Setup', href: '/setup' },
-  { id: 2, name: 'Components', href: '/components' },
-  //{ id: 3, name: 'Projects', href: '/projects' },
-  //{ id: 4, name: 'Blog', href: '/blog' },
+  { id: 1, name: 'Components', href: '/components' },
 ]
 
 export const Header = () => {

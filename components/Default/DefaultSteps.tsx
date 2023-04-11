@@ -1,4 +1,3 @@
-import SetupOptions from 'components/Setup/SetupOptions';
 import React, { useState } from 'react'
 
 const HeaderSteps = [
@@ -39,7 +38,7 @@ const items = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facilis, voluptates error alias dolorem praesentium sit soluta iure incidunt labore explicabo eaque, quia architecto veritatis dolores, enim cons equatur nihil ipsum.',
     icon: 'https://i.ibb.co/bv4v7pC/rocket-icon.png',
-    additionalDetails: <SetupOptions />
+    additionalDetails: ''
   },
   {
     id: 2,
@@ -48,7 +47,7 @@ const items = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facilis, voluptates error alias dolorem praesentium sit soluta iure incidunt labore explicabo eaque, quia architecto veritatis dolores, enim cons equatur nihil ipsum.',
     icon: 'https://i.ibb.co/KhQNPqc/gear-icon.png',
-    additionalDetails: <SetupOptions />,
+    additionalDetails: '',
   },
   {
     id: 3,
@@ -57,7 +56,7 @@ const items = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facilis, voluptates error alias dolorem praesentium sit soluta iure incidunt labore explicabo eaque, quia architecto veritatis dolores, enim cons equatur nihil ipsum.',
     icon: 'https://i.ibb.co/kXV2sp1/flags-icon.png',
-    additionalDetails: <SetupOptions />,
+    additionalDetails: '',
   },
   {
     id: 4,
@@ -66,7 +65,7 @@ const items = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facilis, voluptates error alias dolorem praesentium sit soluta iure incidunt labore explicabo eaque, quia architecto veritatis dolores, enim cons equatur nihil ipsum.',
     icon: 'https://i.ibb.co/fCTBSX9/code-icon.png',
-    additionalDetails: <SetupOptions />,
+    additionalDetails: '',
   },
 ];
 

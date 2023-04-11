@@ -11,20 +11,12 @@ import DefaultSectionTextAndImage from 'components/Default/DefaultSectionTextAnd
 import DefaultSectionHistory from 'components/Default/DefaultSectionHistory';
 
 
-
-
-
-
-
-
-
 const Home: NextPage = () => {
   return (
     <>
-      <title>{` Sad Alien | Home  `}</title>
+      <title>{` Sad Alien Clear | Home  `}</title>
       <HeroCarousel />
       <HeroSectionValues />
-
       <HeroFreeComponents />
       <DefaultSectionTextAndImage />
       <DefaultSectionHistory />

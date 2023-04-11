@@ -1,25 +1,18 @@
-# A Next.js Blog with a Native Authoring Experience<!-- omit in toc -->
+## SadAlien - Clear
 
-This starter is a statically generated blog that uses [Next.js][nextjs] for the frontend and [Sanity][sanity-homepage] to handle its content. It comes with a native Sanity Studio that offers features like real-time collaboration, instant side-by-side content previews, and intuitive editing.
+# A Next.js site with a Native Authoring Experience<!-- omit in toc -->
 
-The Studio connects to Sanity Content Lake, which gives you hosted content APIs with a flexible query language, on-demand image transformations, powerful patching, and more. You can use this starter to kick-start a blog or learn these technologies.
+This version of sadAlien does not comes with a Studio folder, and does not provide any working schemas or structure to follow, it is for more experienced developers looking to write they're own schemas and queries to adapt the style structure and components to they're own needs. 
 
-[![Deploy with Vercel](https://vercel.com/button)][vercel-deploy]
+We only provide a example studio folder if there is any doubt about config files and folder structure.
 
 ## Features
-
-- A performant, static blog with editable posts, authors, and site settings
-- A native and customizable authoring environment, accessible on `yourblog.com/studio`
-- Real-time and collaborative content editing with fine-grained revision history
-- Side-by-side instant content preview that works across your whole site
 - Support for block content and the most advanced custom fields capability in the industry
 - Webhook-triggered Incremental Static Revalidation; no need to wait for a rebuild to publish new content
-- Free and boosted Sanity project with unlimited admin users, free content updates, and pay-as-you-go for API overages
 - A project with starter-friendly and not too heavy-handed TypeScript and Tailwind.css
 
 ## Table of Contents
 
-- [Features](#features)
 - [Table of Contents](#table-of-contents)
 - [Project Overview](#project-overview)
   - [Important files and folders](#important-files-and-folders)
@@ -35,11 +28,6 @@ The Studio connects to Sanity Content Lake, which gives you hosted content APIs 
 - [Next steps](#next-steps)
 
 ## Project Overview
-
-| [Blog](https://nextjs-blog.sanity.build)                                                                       | [Studio](https://nextjs-blog.sanity.build/studio)                                                                       |
-| -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| ![Blog](https://user-images.githubusercontent.com/44635000/197511913-94ea36dd-099d-4dbf-b71f-3335879621c9.png) | ![Sanity Studio](https://user-images.githubusercontent.com/44635000/197511725-b2a2e2e5-287b-41a9-84c6-ec90d37ca480.png) |
-
 ### Important files and folders
 
 | File(s)                                     | Description                                              |
