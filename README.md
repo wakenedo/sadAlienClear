@@ -2,9 +2,7 @@
 
 # A Next.js site with a Native Authoring Experience<!-- omit in toc -->
 
-This version of sadAlien does not comes with a Studio folder, and does not provide any working schemas or structure to follow, it is for more experienced developers looking to write they're own schemas and queries to adapt the style structure and components to they're own needs. 
-
-We only provide a example studio folder if there is any doubt about config files and folder structure.
+This version of SadAlien comes with pre-configured schemas and structures for a blog and project pages. It is designed to help developers get started quickly with building their own projects and blogs using the SadAlien style and components. While the project offers pre-configured schemas and structures, it still provides a lot of flexibility for developers to customize and modify the code to their specific needs. This version is well-suited for developers who are comfortable working with pre-configured schemas and structures and want to make modifications to fit their own requirements.
 
 ## Features
 - Support for block content and the most advanced custom fields capability in the industry
